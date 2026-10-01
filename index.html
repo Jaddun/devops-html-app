@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Practice</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+            color: #222;
+        }
+
+        header {
+            background: #1f2937;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        .hero {
+            min-height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .hero-content {
+            max-width: 700px;
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 14px 28px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        .section {
+            padding: 70px 8%;
+            background: white;
+            text-align: center;
+        }
+
+        .section h2 {
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>DevOps App</h2>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>My DevOps Journey</h1>
+
+        <p>
+            This is a simple PHP application that I will deploy
+            using Git, GitHub, Docker, AWS and CI/CD.
+        </p>
+
+        <a href="#about" class="btn">Learn More</a>
+    </div>
+</section>
+
+<section class="section" id="about">
+    <h2>About This Project</h2>
+
+    <p>
+        This project is created for DevOps deployment practice.
+        The application will eventually be automatically deployed
+        to an AWS EC2 server.
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2026 DevOps Practice Project</p>
+</footer>
+
+</body>
+</html>
